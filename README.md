@@ -18,4 +18,4 @@ Deployment to GitHub Pages:
 
 Notes:
 - Background image is `images/natural-black-metal-grille-carbon-steel.jpg` — used on the homepage hero.
-- Content placeholders should be replaced with real copy and images.
+- Content placeholders should be replaced with real copy and images. 
