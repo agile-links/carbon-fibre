@@ -59,7 +59,7 @@ main{padding-top:var(--header-height)}
 .hero-inner{max-width:var(--max-width);margin:0 auto;padding:96px 28px 48px;position:relative;z-index:2}
 .hero h1{font-size: clamp(28px, 5vw, 56px);margin:0 0 12px;line-height:1.02;color:#ffffff}
 .tagline{color:#ffffff;margin:0 0 20px;opacity:0.95}
-.cta-row a{display:inline-block;margin-right:12px;padding:12px 24px;border-radius:4px;font-weight:600;transition:all 0.3s ease}
+.cta-row a{display:inline-block;margin-right:24px;padding:12px 24px;border-radius:4px;font-weight:600;transition:all 0.3s ease}
 .primary-cta{background:#212529;color:#ffffff;border:2px solid #212529}
 .primary-cta:hover{background:#000000;border-color:#000000}
 .secondary-cta{background:transparent;color:#212529;border:2px solid #212529}
@@ -127,6 +127,9 @@ main{padding-top:var(--header-height)}
   .main-nav.open ~ .nav-overlay,.main-nav.open + .nav-overlay{opacity:1;pointer-events:auto}
   .hero-inner{padding-top:72px}
   .contact-top{display:none}
+  .cta-row{display:flex; flex-direction:column; gap: 12px; 
+  align-items:center; }
+  .cta-row a{margin-right:0;}
 }
 
 /* small polish */
