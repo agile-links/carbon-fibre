@@ -167,6 +167,6 @@ h2{margin:0 0 12px}
 /* Responsive adjustments for landing page */
 @media (max-width:960px){
   .landing-cards{grid-template-columns:1fr;max-width:450px}
-  .landing-hero{padding:120px 20px 40px}
+  .landing-hero{padding:100px 20px 40px}
   .nav-divider{display:none}
 }
