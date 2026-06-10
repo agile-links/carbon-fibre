@@ -32,9 +32,25 @@ a{color:var(--accent-2);text-decoration:none}
   -moz-osx-font-smoothing:grayscale;
   text-rendering:optimizeLegibility;
 }
-.contact-btn{padding:8px 16px;background:#ff9800;color:#ffffff;border:1px solid #ff9800;border-radius:4px;transition:background 0.3s ease}
-.contact-btn:hover{background:#f57c00;border-color:#f57c00}
-.nav-toggle{display:none;background:transparent;border:0;color:var(--accent-2);font-size:20px}
+.contact-btn{
+  padding:8px 16px;
+  /* background:#ff9800; */
+  color:#ffffff;
+  border:1px solid #ff9800;
+  border-radius:4px;
+  transition:background 0.3s ease;
+}
+.contact-btn:hover{
+  background:#f57c00;
+  border-color:#f57c00;
+}
+.nav-toggle{
+  display:none;
+  background:transparent;
+  border:0;
+  color:var(--accent-2);
+  font-size:20px;
+}
 
 /* Side nav / mobile */
 .main-nav{transition:transform .28s ease, left .28s ease}
@@ -118,7 +134,7 @@ main{padding-top:var(--header-height)}
   .nav-toggle{display:inline-block}
   .main-nav{position:fixed;top:0;left:-320px;height:100vh;width:280px;flex-direction:column;padding:104px 16px 20px;background:#ffffff;backdrop-filter:blur(6px);border-right:1px solid #e9ecef;z-index:60;box-shadow:2px 0 8px rgba(0,0,0,0.1)}
   .mobile-logo{display:block;position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:0}
-  .mobile-logo img{height:55px;width:auto}
+  .mobile-logo img{height:75px;width:auto}
   .main-nav a{display:block;padding:12px 6px;border-radius:6px}
   .nav-sections{display:flex;width:100%;flex-direction:row;gap:8px;margin:8px 0 14px}
   .main-nav .section-btn{flex:1;text-align:center;padding:2px 4px}
@@ -142,9 +158,15 @@ h2{margin:0 0 12px}
 /* Navigation sections (CFR / Homeowner) */
 .nav-sections{display:flex;gap:12px;align-items:center}
 .section-btn{padding:4px 8px;border-radius:4px;font-weight:600;transition:all 0.3s ease;border:2px solid transparent}
-.cfr-btn{background:#ff9800;color:#ffffff;border-color:#ff9800}
+.cfr-btn{
+  /* background:#ff9800; */
+  color:#ffffff;
+  border-color:#ff9800}
 .cfr-btn:hover{background:#f57c00;border-color:#f57c00}
-.homeowner-btn{background:#ff9800;color:#ffffff;border-color:#ff9800}
+.homeowner-btn{
+  /* background:#ff9800; */
+  color:#ffffff;
+  border-color:#ff9800}
 .homeowner-btn:hover{background:#f57c00;border-color:#f57c00}
 .nav-divider{width:1px;height:24px;background:#e9ecef;margin:0 4px}
 
